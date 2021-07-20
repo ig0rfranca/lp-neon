@@ -10,3 +10,8 @@
         @content;
     }
 }
+
+@mixin text-center($height, $align) {
+    line-height: $height;
+    text-align: $align;
+}
