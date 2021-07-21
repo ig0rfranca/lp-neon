@@ -1,9 +1,13 @@
 header {
-    background-color: #0073CE;
-    position: sticky;
+    // position: sticky;
+    position: absolute;
+    top: 0;
+    width: 100%;
     left: 0;
     height: 8.8rem;
-    display: flex;    
+    // background: url("../img/bg-hero.svg") no-repeat center center;
+    display: flex;
+    border-bottom: 0.2rem solid rgba(255, 255, 255, 0.2);
 
     .container {
         @include flex(row, center, space-between);
