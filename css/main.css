@@ -459,6 +459,48 @@ header nav ul a:hover {
   margin-right: -3.1rem;
 }
 
+.s-depoimentos {
+  padding-top: 13.4rem;
+}
+
+.s-depoimentos .top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.s-depoimentos .top h2 span {
+  display: block;
+  color: #C6C5CE;
+  margin-bottom: 1.4rem;
+}
+
+.s-depoimentos .top .swiper-pagination {
+  position: relative;
+}
+
+.s-depoimentos .top .swiper-pagination .swiper-pagination-bullet {
+  background: #FFC800;
+  opacity: 0.3;
+  border-radius: 12px;
+  transition: all .3s;
+}
+
+.s-depoimentos .top .swiper-pagination .swiper-pagination-bullet:not(:first-child) {
+  margin-left: 0.4rem;
+}
+
+.s-depoimentos .top .swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 1.72rem;
+}
+
+.s-depoimentos .slide-depoimentos {
+  overflow: hidden;
+}
+
 h1 {
   font-weight: 600;
   font-size: 6.4rem;
