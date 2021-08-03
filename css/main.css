@@ -158,6 +158,140 @@ header nav ul a:hover {
   color: #FFC800;
 }
 
+footer {
+  background-color: #0073CE;
+  padding-top: 4.9rem;
+}
+
+footer .top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid rgba(73, 197, 253, 0.2);
+  padding-bottom: 4.8rem;
+  margin-bottom: 5.7rem;
+}
+
+footer .top .share {
+  display: flex;
+  align-items: center;
+}
+
+footer .top .share span {
+  font-size: 1.4rem;
+  line-height: 125%;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer .top .share ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-left: 3rem;
+}
+
+footer .main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid rgba(73, 197, 253, 0.2);
+  padding-bottom: 6.2rem;
+  margin-bottom: 3.9rem;
+}
+
+footer .main nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 86rem;
+  width: 100%;
+}
+
+footer .main nav .item strong {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 125%;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-bottom: 2.5rem;
+}
+
+footer .main nav .item li:not(:last-child) {
+  margin-bottom: 2.9rem;
+}
+
+footer .main nav .item li a {
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+footer .main .btns {
+  max-width: 28rem;
+  width: 100%;
+}
+
+footer .main .btns button {
+  background: rgba(0, 164, 240, 0.23);
+  border-radius: 6px;
+  width: 100%;
+  height: 7.6rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2.5rem;
+}
+
+footer .main .btns button:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+footer .main .btns button .info {
+  margin-left: 2.4rem;
+}
+
+footer .main .btns button .info strong {
+  text-align: left;
+  display: block;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+footer .main .btns button .info span {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+footer .msg {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 0.4rem solid #FFC800;
+  padding-bottom: 3.4rem;
+}
+
+footer .msg p {
+  max-width: 66rem;
+  width: 100%;
+  margin-left: 2.5rem;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+footer .msg .icon {
+  font-size: 1.8rem;
+}
+
 .s-hero {
   width: 100%;
   height: 78.8rem;
