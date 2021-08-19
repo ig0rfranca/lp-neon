@@ -58,5 +58,5 @@
 <hr>
 <br>
 <p>
-    by <a>Igor R.F.</a>
+    <strong>by <a>Igor R.F.</a></strong>
 </p>
